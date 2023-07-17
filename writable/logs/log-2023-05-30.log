@@ -1,0 +1,78 @@
+INFO - 2023-05-30 04:41:24 --> CSRF token verified.
+INFO - 2023-05-30 04:48:29 --> CSRF token verified.
+INFO - 2023-05-30 04:59:55 --> CSRF token verified.
+INFO - 2023-05-30 05:08:56 --> CSRF token verified.
+INFO - 2023-05-30 06:20:18 --> CSRF token verified.
+INFO - 2023-05-30 06:20:40 --> CSRF token verified.
+INFO - 2023-05-30 06:21:00 --> CSRF token verified.
+INFO - 2023-05-30 06:41:01 --> CSRF token verified.
+CRITICAL - 2023-05-30 06:41:01 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Advertisements.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->save()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 06:43:20 --> CSRF token verified.
+CRITICAL - 2023-05-30 06:43:20 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Advertisements.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->save()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 06:43:55 --> CSRF token verified.
+INFO - 2023-05-30 06:44:29 --> CSRF token verified.
+INFO - 2023-05-30 06:48:00 --> CSRF token verified.
+INFO - 2023-05-30 06:50:46 --> CSRF token verified.
+INFO - 2023-05-30 07:50:29 --> CSRF token verified.
+INFO - 2023-05-30 07:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 07:55:45 --> CSRF token verified.
+INFO - 2023-05-30 07:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 08:01:36 --> Undefined variable: validation
+in APPPATH\Views\advt_entry\add_advt.php on line 32.
+ 1 APPPATH\Views\advt_entry\add_advt.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validation', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add_advt.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add_advt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_entry/add_advt', [], true)
+ 5 APPPATH\Controllers\Advertisements.php(22): view('advt_entry/add_advt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 08:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:17:57 --> CSRF token verified.
+INFO - 2023-05-30 08:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:20:54 --> CSRF token verified.
+INFO - 2023-05-30 08:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:22:41 --> CSRF token verified.
+INFO - 2023-05-30 08:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 08:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:08:08 --> CSRF token verified.
+INFO - 2023-05-30 10:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:08:48 --> CSRF token verified.
+INFO - 2023-05-30 10:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:09:23 --> CSRF token verified.
+INFO - 2023-05-30 10:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-30 10:56:50 --> Array to string conversion
+in APPPATH\Views\advt_entry\add_advt.php on line 35.
+ 1 APPPATH\Views\advt_entry\add_advt.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add_advt.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add_advt.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_entry/add_advt', [], true)
+ 5 APPPATH\Controllers\Advertisements.php(23): view('advt_entry/add_advt', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-30 10:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-30 10:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

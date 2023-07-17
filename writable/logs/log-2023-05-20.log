@@ -1,0 +1,86 @@
+INFO - 2023-05-20 08:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 11:07:14 --> Array to string conversion
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('555')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:08:02 --> Call to undefined function App\Controllers\printr()
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('555')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:12:59 --> Object of class App\Entities\Advt could not be converted to string
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('555')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:16:54 --> Undefined offset: 0
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('2023', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:18:33 --> syntax error, unexpected '$advt_model' (T_VARIABLE), expecting ';' or ','
+in APPPATH\Libraries\AdvtDetails.php on line 15.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Libraries\\AdvtDetails.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\AdvtDetails')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\AdvtDetails')
+ 4 APPPATH\Controllers\Advertisements.php(51): spl_autoload_call('App\\Libraries\\AdvtDetails')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('2023', '2023')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:18:47 --> Undefined offset: 0
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('2023', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:19:14 --> Undefined offset: 0
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('2023', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:22:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('2023', '2023')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:22:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('2023')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 11:23:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('777')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 12:11:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('777')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-20 12:13:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Advertisements.php on line 53.
+ 1 APPPATH\Controllers\Advertisements.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Advertisements.php', 53, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->advtById('777')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

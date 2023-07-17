@@ -1,0 +1,15 @@
+CRITICAL - 2023-05-24 06:30:28 --> Undefined property: stdClass::$total_apps
+in APPPATH\Views\advt_view\advt_details.php on line 99.
+ 1 APPPATH\Views\advt_view\advt_details.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$total_apps', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_view\\advt_details.php', 99, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_view\\advt_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_view/advt_details', [], true)
+ 5 APPPATH\Controllers\Advertisements.php(74): view('advt_view/advt_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->test()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-24 07:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 07:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 09:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-24 09:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

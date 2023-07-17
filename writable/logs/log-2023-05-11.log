@@ -1,0 +1,124 @@
+CRITICAL - 2023-05-11 05:38:21 --> Class 'App\Controllers\Controller' not found
+in APPPATH\Controllers\Teachers.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Teachers.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Teachers')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Teachers')
+ 5 [internal function]: spl_autoload_call('App\\Controllers\\Teachers')
+ 6 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Teachers', true)
+ 7 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 06:58:26 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+in APPPATH\Controllers\Teachers.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Teachers.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Teachers')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Teachers')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Teachers', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 06:59:17 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+in APPPATH\Controllers\Teachers.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Teachers.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Teachers')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Teachers')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Teachers', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 06:59:18 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+in APPPATH\Controllers\Teachers.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Teachers.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Teachers')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Teachers')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Teachers', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 07:07:36 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+in APPPATH\Controllers\Teachers.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Controllers\\Teachers.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Teachers')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Teachers')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Teachers')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Teachers', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 12:18:43 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('advt/create', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 12:20:29 --> Undefined variable: title
+in APPPATH\Views\advt_entry\add.php on line 13.
+ 1 APPPATH\Views\advt_entry\add.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_entry/add', [], true)
+ 5 APPPATH\Controllers\Advertisements.php(8): view('advt_entry/add')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 12:20:49 --> Undefined variable: title
+in APPPATH\Views\advt_entry\add.php on line 13.
+ 1 APPPATH\Views\advt_entry\add.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_entry/add', [], true)
+ 5 APPPATH\Controllers\Advertisements.php(8): view('advt_entry/add')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-11 12:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-11 12:21:14 --> Call to undefined function validation_list_errors()
+in APPPATH\Views\advt_entry\add.php on line 14.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_entry/add', [], true)
+ 4 APPPATH\Controllers\Advertisements.php(8): view('advt_entry/add')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->create()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 12:24:40 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\advt_entry\add.php on line 13.
+ 1 APPPATH\Views\advt_entry\add.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_entry/add', [], true)
+ 5 APPPATH\Controllers\Advertisements.php(8): view('advt_entry/add')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-11 12:26:31 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\advt_entry\add.php on line 13.
+ 1 APPPATH\Views\advt_entry\add.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php', 13, [])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SOFTWARE\\xampp\\htdocs\\apsc_advt\\app\\Views\\advt_entry\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('advt_entry/add', [], true)
+ 5 APPPATH\Controllers\Advertisements.php(8): view('advt_entry/add')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Advertisements->create()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Advertisements))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-11 12:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-11 12:27:08 --> CSRF token verified.
+CRITICAL - 2023-05-11 12:30:02 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('advt/create', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
